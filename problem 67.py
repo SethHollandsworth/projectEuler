@@ -1,7 +1,8 @@
 import time
 
 triangle = []
-file = open("C:\\Users\\sethh\\Documents\\computerScienceProjects\\Project Euler\\p067_triangle.txt", "r")
+
+file = open("C:/Users/sethh/Documents/computerScienceProjects/projectEuler/p067_triangle.txt", "r")
 for line in file: triangle.append([int(i) for i in line.split(" ")])
 
 #inverts entire triangle
